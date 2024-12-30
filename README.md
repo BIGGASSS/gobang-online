@@ -12,12 +12,18 @@ This is a web app developed with javascript to function as a multiplayer Gobang 
 git clone https://github.com/BIGGASSS/gobang-online.git
 ```
 
-3. `cd` into the repository and start the server
+3. `cd` into the repository and install the node moudules
+
+```bash
+npm install
+```
+
+4. Start the server
 
 ```bash
 node server.js
 ```
 
-4. Go to `http://localhost:3000`
+5. Go to `http://localhost:3000`
 
 [Demo Site](https://wuzi.616sb.top)

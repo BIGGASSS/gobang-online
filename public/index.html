@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>在线五子棋</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+            <div id="player-info">等待加入游戏...</div>
+            <div id="room-info">房间号: </div>
+            <div id="turn-info">当前回合: </div>
+            <div id="game-status"></div>  <!-- 新增 -->
+        </div>  
+        <canvas id="chessboard" width="600" height="600"></canvas>
+        <div class="controls">
+            <button id="create-room">创建房间</button>
+            <input type="text" id="room-id" placeholder="输入房间号">
+            <button id="join-room">加入房间</button>
+            <button id="restart-game" style="display: none;">重新开始</button>
+        </div>        
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

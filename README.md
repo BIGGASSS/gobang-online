@@ -12,7 +12,7 @@ This is a web app developed with javascript to function as a multiplayer Gobang 
 git clone https://github.com/BIGGASSS/gobang-online.git
 ```
 
-3. `cd` into the repository and install the node moudules
+3. `cd` into the repository and install the dependencies
 
 ```bash
 npm install
